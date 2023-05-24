@@ -1,0 +1,29 @@
+#███████╗██╗  ██╗   ██╗████████╗██████╗  █████╗ ███████╗██╗  ██╗   ██╗
+#██╔════╝██║  ╚██╗ ██╔╝╚══██╔══╝██╔══██╗██╔══██╗██╔════╝██║  ╚██╗ ██╔╝
+#█████╗  ██║   ╚████╔╝    ██║   ██████╔╝███████║█████╗  ██║   ╚████╔╝
+#██╔══╝  ██║    ╚██╔╝     ██║   ██╔══██╗██╔══██║██╔══╝  ██║    ╚██╔╝
+#███████╗███████╗██║      ██║   ██║  ██║██║  ██║██║     ███████╗██║
+#╚══════╝╚══════╝╚═╝      ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚══════╝╚═╝
+# This is the Main Configuration for the ElytraFly plugin.
+# You can change the values to your liking.
+# Please restart the Server after making changes to this file, as there are no systems in place to keep track of changes.
+
+# Prefix used for all Messages the Plugin sends to Players
+# Supports MiniMessage Formatting
+# Default: <gold><b>ElytraFly</b> <black>»</black> <reset>
+# https://docs.advntr.dev/minimessage/format.html
+prefix: <gold><b>ElytraFly</b> <black>»</black> <reset>
+
+
+# The LogLevel of the Plugin
+# Default: INFO
+# Possible Values: DEBUG, INFO, WARNING, ERROR
+loglevel: INFO
+
+# These are the Locations inbetween the Player will receive an Elytra
+# please use the ingame command /elytrafly add <1 | 2> to add the locations
+# NOTE: THIS IS NOT MEANT FOR DIRECT CHANGING
+# this is only meant to be changed by the plugin directly as it uses serialization
+locations:
+  1:
+  2:
